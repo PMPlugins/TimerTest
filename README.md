@@ -1,2 +1,2 @@
 # TimerTest
-A simple accurate timer that can be used for minigmaes.
+A simple and accurate timer that can be used for minigmaes.

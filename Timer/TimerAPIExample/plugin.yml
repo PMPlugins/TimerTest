@@ -1,0 +1,6 @@
+name: TimerAPIExample
+description: API uses example,
+author: Legoboy
+main: Legoboy\Timer\Timer
+version: 1.0.0
+api: [1.12.0]

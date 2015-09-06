@@ -15,7 +15,7 @@ class TimerTask extends PluginTask{
 
     public function onRun($currentTick){
 	    $this->secondsElapsed = time() - $this->getOwner()->seconds; //Caculating the time past
-	    $this->getOwner()->getLogger()->info(TextFormat::YELLOW . $this->secondsElapsed . " seconds has past.");
+	    $this->getOwner()->getLogger()->info(TextFormat::YELLOW . $this->secondsElapsed . " seconds have passed.");
 	    if($this->secondsElapsed == 5){ //The number is caculated by the seconds you want minus 1
             $this->getOwner()->getServer()->broadcastMessage(TextFormat::GREEN . "YAY!");
         }elseif($this->secondsElapsed >= $this->secsTotal){
